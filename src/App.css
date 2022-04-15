@@ -96,8 +96,14 @@ p {
   background: var(--color-light-bkgrnd);
   display: flex;
   justify-content: space-around;
-  padding: 1rem;
+  padding: 0.25rem;
   border-bottom: 1px solid var(--color-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    padding: 1rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -118,9 +124,16 @@ p {
 }
 
 .nav__item {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem .5rem;
   border-bottom: 1px solid #222;
   transition: color 0.3s;
+}
+
+
+@media screen and (min-width: 768px) {
+  .nav__item {
+    padding: 0.5rem 2rem;
+  }
 }
 
 .nav__item > a {
