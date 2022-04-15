@@ -458,6 +458,15 @@ a {
   color: white;
 }
 
+/* Contact */
+
+.icons {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 /* buttons */
 .btn {
   border-radius: 40px;
