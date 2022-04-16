@@ -3,12 +3,13 @@ import github from "../assets/GitHub-Mark-32px.png"
 import weather from "../assets/weatherme.png"
 import java from "../assets/java.png"
 import rpsls from "../assets/rpsls-hands-spock.png"
+import jp from "../assets/jp.PNG"
 
 const Projects = () => {
     return ( 
     <section id="projects" className="block container block--light block-projects">
       <h2 data-aos="zoom-in">Projects</h2>
-      <div className="grid grid--1x2">
+      <div className="grid grid--1x3">
         <div className="project" data-aos="fade-up">
           <div className="card ">
             <a href="https://admirable-lebkuchen-db46f7.netlify.app/" target="/">
@@ -35,6 +36,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
             </div>
           </div>
         </div>
+
         <div className="project" data-aos="fade-up">
           <div className="card">
             <a href="https://magnificent-torte-aec714.netlify.app/" target="/">
@@ -60,7 +62,33 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
             </div>
           </div>
         </div>
+        <div className="project" data-aos="fade-up">
+          <div className="card ">
+            <a href="https://cosmic-sunburst-b998ed.netlify.app/" target="/">
+              <div className="project-6">
+                
+              </div>
+            </a>
+            <div className="card__body">
+              <header className="card__header">
+                <h3>Find Jon</h3>
+                <a className="github" href="https://github.com/JAPlaisted/find-jon" target="/">
+                  <img 
+                    className='brightness'
+                    src={github}
+                    alt="GitHub logo"
+                    width="20px"
+                    height="20px"
+                /></a>
+              </header>
+              <p className="card__description">
+                This single page React app is my solution to sites like Instagram only offering a spot for a single link. This find me page makes it easier for people to connect and network with me.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+      
       <div className="grid grid--1x3">
         <div className="project" data-aos="fade-up">
           <div className="card">

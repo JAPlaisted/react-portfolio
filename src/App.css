@@ -382,7 +382,8 @@ a {
 .project-2,
 .project-3,
 .project-4,
-.project-5 {
+.project-5,
+.project-6 {
   width: 300px;
   height: 200px;
   display: block;
@@ -410,12 +411,22 @@ a {
   background-color: white;
   border-radius: 10%;
 }
+
+.project-6 {
+  background-image: url("https://images.assetsdelivery.com/compings_v2/mmfcreative/mmfcreative2105/mmfcreative210500614.jpg");
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 10%;
+}
   
   .project-1:hover,
   .project-2:hover,
   .project-3:hover,
   .project-4:hover,
-  .project-5:hover  {
+  .project-5:hover,
+  .project-6:hover  {
     box-shadow: 0 0 0 0.5rem var(--color-primary);
     cursor: pointer;
   }
