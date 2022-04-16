@@ -3,7 +3,6 @@ import github from "../assets/GitHub-Mark-32px.png"
 import weather from "../assets/weatherme.png"
 import java from "../assets/java.png"
 import rpsls from "../assets/rpsls-hands-spock.png"
-import jp from "../assets/jp.PNG"
 
 const Projects = () => {
     return ( 
