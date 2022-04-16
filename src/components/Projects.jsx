@@ -20,7 +20,8 @@ const Projects = () => {
               <header className="card__header">
                 <h3>Zoa Energy</h3>
                 <a className="github" href="https://github.com/JAPlaisted/ZoaEnergyLandingPage" target="/">
-                  <img
+                  <img 
+                    className='brightness'
                     src={github}
                     alt="GitHub logo"
                     width="20px"
@@ -45,7 +46,8 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
               <header className="card__header">
                 <h3>Pacifica Pizza</h3>
                 <a className="github" href="https://github.com/JAPlaisted/react-pizza" target="/">
-                  <img
+                  <img 
+                    className='brightness'
                     src={github}
                     alt="GitHub logo"
                     width="20px"
@@ -75,6 +77,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
                 <h3>WeatherMe</h3>
                 <a className="github" href="https://github.com/JAPlaisted/Weather-Web-App" target="/">
                   <img
+                    className='brightness'
                     src={github}
                     alt="GitHub logo"
                     width="20px"
@@ -104,6 +107,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
                 <h3>React/MUI Blog</h3>
                 <a className="github" href="https://github.com/JAPlaisted/concepts" target="/">
                   <img
+                    className='brightness'
                     src={github}
                     alt="GitHub logo"
                     width="20px"
@@ -131,6 +135,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
                 <h3>Rock, Paper, Scissors, Lizard, Spock</h3>
                 <a className="github" href="https://github.com/JAPlaisted/RPSLP" target="/">
                   <img
+                    className='brightness'
                     src={github}
                     alt="GitHub logo"
                     width="20px"

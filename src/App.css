@@ -330,6 +330,11 @@ a {
   border-radius: 10%;
 }
 
+.brightness {
+  filter: brightness(0.25);
+  -webkit-filter: brightness(0.25);
+}
+
 .project  {
   border-radius: 10%;
 }
