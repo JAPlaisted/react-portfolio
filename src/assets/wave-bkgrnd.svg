@@ -16,7 +16,7 @@
 		<animateTransform attributeName="transform"
                           attributeType="XML"
                           type="translate"
-                          dur="25"
+                          dur="10"
                           values="150,0;-150,0;150,0;"
                           repeatCount="indefinite"/>
 	</path>
@@ -33,7 +33,7 @@
 		<animateTransform attributeName="transform"
                           attributeType="XML"
                           type="translate"
-                          dur="20"
+                          dur="5"
                           values="150,0;-150,0;150,0;"
                           repeatCount="indefinite"/>
 	</path>
