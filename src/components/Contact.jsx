@@ -1,8 +1,15 @@
 import React from 'react';
 import Sprite from '../assets/icon_sprite.svg'
+import wave from "../assets/wave-bkgrnd.svg"
 
 
 const Contact = () => {
+
+  const sectionStyle = {
+    backgroundImage:`url(${wave})`,
+    backgroundSize: '100%',
+  };
+
     return ( 
         <section id="contact">
             <div className="callout callout--primary">
@@ -13,7 +20,7 @@ const Contact = () => {
                    I am eager to work with you and create great technology. 
                   </p>
                  </div>
-                  <a href="mailto: jonathan.plaisted@outlook.com" className="btn btn--stretched">Contact</a>
+                  <a href="mailto: jonathan.plaisted@outlook.com" className="btn btn--stretched" style={ sectionStyle }>Contact</a>
               </div>
              </div>
             <div className="icons" data-aos="fade-up">
