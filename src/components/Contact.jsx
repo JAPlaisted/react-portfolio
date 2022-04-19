@@ -8,6 +8,7 @@ const Contact = () => {
   const sectionStyle = {
     backgroundImage:`url(${wave})`,
     backgroundSize: '100%',
+    transform: 'scaleY(-1)',
   };
 
     return ( 
@@ -20,7 +21,7 @@ const Contact = () => {
                    I am eager to work with you and create great technology. 
                   </p>
                  </div>
-                  <a href="mailto: jonathan.plaisted@outlook.com" className="btn btn--stretched" style={ sectionStyle }>Contact</a>
+                  <a href="mailto: jonathan.plaisted@outlook.com" className="btn btn--stretched" style={ sectionStyle }><div className='flip'>Contact</div></a>
               </div>
              </div>
             <div className="icons" data-aos="fade-up">

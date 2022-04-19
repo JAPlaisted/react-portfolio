@@ -483,12 +483,15 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 @media screen and (min-width: 768px) {
   .icons {
     padding: 6rem 12rem;
   }
 }
+
 /* buttons */
+
 .btn {
   border-radius: 40px;
   border: 0;
@@ -502,6 +505,11 @@ a {
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+.flip {
+  transform: scaleY(-1);
+}
+
 
 .btn--stretched {
   padding-left: 16rem;
