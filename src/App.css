@@ -405,7 +405,7 @@ a {
 .project-1 {
   background-image: url("https://media.gq.com/photos/61aa416d7e718dbdfbf7e42c/master/w_1600%2Cc_limit/ZOA_Logos-22.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   border-radius: 10%;
 }
 
