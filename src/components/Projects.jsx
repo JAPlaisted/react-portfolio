@@ -123,6 +123,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
           <div className="card">
             <a href="https://upbeat-wiles-ffe15a.netlify.app/"  target="/">
               <img
+              className="cover"
                 src={synoptic}
                 alt=""
               />

@@ -336,6 +336,10 @@ a {
   border-radius: 10%;
 }
 
+.cover {
+  background-size: cover;
+}
+
 .brightness {
   filter: brightness(0.25);
   -webkit-filter: brightness(0.25);
