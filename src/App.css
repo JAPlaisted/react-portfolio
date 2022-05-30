@@ -332,6 +332,7 @@ a {
   border: 0.375rem double black;
   transition: 300ms ease-in-out;
   background-color: whitesmoke;
+  padding: 3rem;
   border-radius: 10%;
 }
 
