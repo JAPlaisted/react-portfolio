@@ -204,6 +204,10 @@ a {
   text-decoration: none;
 }
 
+.noPad {
+  padding: 0;
+}
+
 
 /* Grids */
 .grid {
@@ -411,13 +415,6 @@ a {
   background-size:contain;
   background-repeat: no-repeat;
   background-color: white;
-  border-radius: 10%;
-}
-
-.project-5 {
-  background-image: url("/assets/rpsls-hands-spock.png");;
-  background-position: center;
-  background-size: cover;
   border-radius: 10%;
 }
 

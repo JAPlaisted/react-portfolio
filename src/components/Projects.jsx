@@ -119,12 +119,13 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
             </div>
           </div>
         </div>
-        <div className="project" data-aos="fade-up">
+        <div className="project noPad" data-aos="fade-up">
           <div className="card">
             <a href="https://upbeat-wiles-ffe15a.netlify.app/"  target="/">
-            <div className="project-5">
-                
-                </div>
+              <img
+                src={synoptic}
+                alt=""
+              />
             </a>
             <div className="card__body">
               <header className="card__header">
