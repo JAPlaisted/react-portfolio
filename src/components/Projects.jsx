@@ -125,8 +125,6 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
               <img
                 src={synoptic}
                 alt=""
-                width="300px"
-                height="200px"
               />
             </a>
             <div className="card__body">
