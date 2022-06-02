@@ -13,7 +13,7 @@ const Contact = () => {
 
     return ( 
         <section id="contact" className='container'>
-            <div className="callout callout--primary">
+            <div className="callout callout--primary container">
                 <div className="grid grid--1x2" data-aos="fade-up-left">
                 <div className="callout__content">
                  <h2 className="callout__heading">Ready to Get in touch?</h2>
