@@ -25,6 +25,10 @@
   --border-radius: 30px;
 }
 
+.centered {
+  text-align: center;
+}
+
 
 a {
   text-decoration: none;
@@ -209,6 +213,10 @@ a {
   text-decoration: none;
 }
 
+.noPad {
+  padding: 0;
+}
+
 
 /* Grids */
 .grid {
@@ -332,10 +340,12 @@ a {
   margin-right: auto;
   border: 0.375rem double black;
   transition: 300ms ease-in-out;
-  background-color: whitesmoke;
-  padding: 6rem;
+  background-color: white;
   border-radius: 10%;
+  height: 30rem;
+  width: 30rem;
 }
+
 
 .brightness {
   filter: brightness(0.25);
@@ -391,22 +401,20 @@ a {
 .project-4,
 .project-5,
 .project-6 {
-  width: 300px;
-  height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 0.375rem double black;
   transition: 300ms ease-in-out;
   background-color: white;
-  padding: 6rem;
-
+  height: 30rem;
+  width: 30rem;
 }
 
 .project-1 {
   background-image: url("https://media.gq.com/photos/61aa416d7e718dbdfbf7e42c/master/w_1600%2Cc_limit/ZOA_Logos-22.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   border-radius: 10%;
 }
 

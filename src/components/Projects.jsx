@@ -1,7 +1,7 @@
 import React from 'react';
 import github from "../assets/GitHub-Mark-32px.png"
 import weather from "../assets/weatherme.png"
-import java from "../assets/java.png"
+import synoptic from "../assets/synoptic.png"
 import rpsls from "../assets/rpsls-hands-spock.png"
 
 const Projects = () => {
@@ -119,19 +119,18 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
             </div>
           </div>
         </div>
-        <div className="project" data-aos="fade-up">
+        <div className="noPad project" data-aos="fade-up">
           <div className="card">
-            <a href="https://upbeat-wiles-ffe15a.netlify.app/"  target="/">
+            <a  href="https://upbeat-wiles-ffe15a.netlify.app/"  target="/">
               <img
-                src={java}
+                src={synoptic}
                 alt=""
-                width="300px"
-                height="200px"
+                borderRadius='100%'
               />
             </a>
             <div className="card__body">
               <header className="card__header">
-                <h3>React/MUI Blog</h3>
+                <h3>Synoptic</h3>
                 <a className="github" href="https://github.com/JAPlaisted/concepts" target="/">
                   <img
                     className='brightness'
