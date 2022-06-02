@@ -485,12 +485,12 @@ a {
 .icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content:space-between;
 }
 
 @media screen and (min-width: 768px) {
   .icons {
-    padding: 6rem 12rem;
+    padding: 3rem 3rem;
   }
 }
 
