@@ -99,7 +99,8 @@ p {
   align-items: center;
   background: var(--color-light-bkgrnd);
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding: 0.25rem;
   border-bottom: 1px solid var(--color-primary);
 }
