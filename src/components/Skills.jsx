@@ -6,7 +6,8 @@ import Sprite from '../assets/sprite.svg'
 const Skills = () => {
     return ( 
         <section id="skills" className="block block--primary block--light">
-        <h2 data-aos="zoom-in">Skills & Tools</h2>   
+        <div className="container">
+          <h2 data-aos="zoom-in" className='centered'>Skills & Tools</h2>
         <div className="media--block">
             <div className="grid grid--1x3" >
             <div className="media" data-aos="fade-right">
@@ -98,6 +99,7 @@ const Skills = () => {
             </div>
 
           </div>
+        </div>
         </div>
         </section>
      );
