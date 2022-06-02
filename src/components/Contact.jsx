@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="callout callout--primary container">
                 <div className="grid grid--1x2" data-aos="fade-up-left">
                 <div className="callout__content">
-                 <h2 className="callout__heading">Ready to Get in touch?</h2>
+                 <h2 className="callout__heading">Ready to Get In Touch?</h2>
                  <p>
                    I am eager to work with you and create great technology. 
                   </p>
