@@ -12,7 +12,7 @@ const Contact = () => {
   };
 
     return ( 
-        <section id="contact">
+        <section id="contact" className='container'>
             <div className="callout callout--primary">
                 <div className="grid grid--1x2" data-aos="fade-up-left">
                 <div className="callout__content">

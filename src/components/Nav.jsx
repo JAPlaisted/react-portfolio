@@ -7,7 +7,7 @@ const Nav = () => {
 
     return ( 
     <nav className="nav sticky ">
-      <ul className="list nav__list ">
+      <ul className="list nav__list container">
         <li className="nav__item"><HashLink to="/#projects">PROJECTS</HashLink></li>
         <li className="nav__item"><HashLink to="#skills">SKILLS</HashLink></li>
         <li className="nav__item "><a className="contact"  href="mailto: jonathan.plaisted@outlook.com">CONTACT</a></li>

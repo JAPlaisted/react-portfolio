@@ -89,13 +89,18 @@ p {
   }
 }
 
+.centered {
+  text-align: center;
+}
+
 /* Navigation */
 
 .nav {
   align-items: center;
   background: var(--color-light-bkgrnd);
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding: 0.25rem;
   border-bottom: 1px solid var(--color-primary);
 }
@@ -481,12 +486,12 @@ a {
 .icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content:space-between;
 }
 
 @media screen and (min-width: 768px) {
   .icons {
-    padding: 6rem 12rem;
+    padding: 3rem 3rem;
   }
 }
 
