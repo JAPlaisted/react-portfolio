@@ -10,10 +10,10 @@ const Skills = () => {
           <h2 data-aos="zoom-in" className='centered'>Skills & Tools</h2>
           <div className="media--block">
               <div className="grid grid--1x3" >
-              <div className="media" data-aos="fade-right">
-              <div className="media__image" >
+              <div className="media media__container" data-aos="fade-right">
+              <div className="media__image centered" >
                 <span className="icon-container">
-                <svg className='icon'>
+                <svg className='icon-skill '>
                   <use xlinkHref={`${Sprite}#website`}/>
                 </svg>
                 </span>
@@ -24,10 +24,10 @@ const Skills = () => {
                     </div>
               </div>
           
-              <div className="media" data-aos="fade-right">
-              <div className="media__image">
+              <div className="media media__container" data-aos="fade-right">
+              <div className="media__image centered">
                 <span className="icon-container">
-                <svg className='icon'>
+                <svg className='icon-skill'>
                   <use xlinkHref={`${Sprite}#css3`}/>
                 </svg>
                 </span>
@@ -37,40 +37,40 @@ const Skills = () => {
                 <p>I think CSS is widely under appreciated, I use CSS to create beautiful and smooth animations and styling. </p>
                     </div>
               </div>
-              <div className="media" data-aos="fade-right">
-              <div className="media__image">
+              <div className="media media__container" data-aos="fade-right">
+              <div className="media__image centered">
                 <span className="icon-container">
-                <svg className='icon'>
+                <svg className='icon-skill'>
                   <use xlinkHref={`${Sprite}#react`}/>
                 </svg>
                 </span>
               </div>
               <div className="media__body">
                 <h3 className="media__title">React JS</h3>
-                <p>React is a powerful framework that allows me to pack a ton of functionality into my software.</p>
+                <p>React is a powerful framework that allows me to pack a ton of functionality into my software and create stunning sites fast.</p>
                </div>
               </div>
              </div>
             </div>
             <div className="media--block" >
             <div className="grid grid--1x3" data-aos="fade-left">
-              <div className="media">
-                <div className="media__image">
+              <div className="media media__container">
+                <div className="media__image centered">
                   <span className="icon-container">
-                    <svg className='icon'>
+                    <svg className='icon-skill'>
                   <use xlinkHref={`${Sprite}#code`}/>
                 </svg>
               </span>
             </div>
             <div className="media__body">
               <h3 className="media__title">VSCODE</h3>
-                <p>My IDE of choice, combined with plugins that allow me to write clean, readable, shareable code.</p>
+                <p>My IDE of choice, combined with plugins that allow me to write clean, readable, shareable code. VS Code also alows me to effortlessly use the full power of React.</p>
                   </div>
              </div>
-             <div className="media" data-aos="fade-left">
-                <div className="media__image">
+             <div className="media media__container" data-aos="fade-left">
+                <div className="media__image centered">
                   <span className="icon-container">
-                  <svg className='icon'>
+                  <svg className='icon-skill'>
                       <use xlinkHref={`${Sprite}#adobe`}/>
                     </svg>
                  </span>
@@ -80,10 +80,10 @@ const Skills = () => {
                     <p>With this fleet of world-class software, I create mock-up site designs, multiple image sizes and files, professional video clips, and endlessly more.</p>
                   </div>
               </div>
-             <div className="media" data-aos="fade-left">
-                <div className="media__image">
+             <div className="media media__container" data-aos="fade-left">
+                <div className="media__image centered">
                     <span className="icon-container">
-                   <svg className='icon'>
+                   <svg className='icon-skill'>
                      <use xlinkHref={`${Sprite}#python`}/>
                    </svg>
                    </span>

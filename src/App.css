@@ -27,6 +27,8 @@
 
 .centered {
   text-align: center;
+  display: block;
+  margin: auto;
 }
 
 
@@ -91,10 +93,6 @@ p {
   h3 {
     font-size: 2.4rem;
   }
-}
-
-.centered {
-  text-align: center;
 }
 
 /* Navigation */
@@ -190,6 +188,11 @@ p {
 .icon {
   width: 40px;
   height: 40px;
+}
+
+.icon-skill {
+  width: 12rem;
+  height: 12rem;
 }
 
 .icon--white {
@@ -450,10 +453,53 @@ a {
     padding: 1rem;
   }
 
+  /* skills */
+
+  #skills {
+    background: linear-gradient(-45deg,  #5248ff,  #6c63ff, #7e77ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
   /* Media */
 .media {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.media__container {
+  padding: 1rem;
+  background-color: #f1f1f131;
+  border-radius: 20px;
+  box-shadow: -1px 30px 20px -6px rgba(146, 146, 146, 0.15);
+  max-width: 1140px;
+  margin-inline: 5%;
+  margin-bottom: 2rem;
+}
+.media__body > p {
+  text-align: left ;
+}
+
+@media screen and (min-width: 728px) {
+  .media__body > p {
+    text-align: center;
+  }
 }
 
 .media--block {
@@ -462,7 +508,7 @@ a {
 }
 
 .media--block .grid {
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
 }
 
 .media__title {
@@ -471,6 +517,7 @@ a {
 
 .media__body {
   margin: 0 2rem;
+  text-align: center;
 }
 
 .media__image {
@@ -484,9 +531,25 @@ a {
 }
 
 .block--media > h2 {
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
   text-align: center;
   color: white;
+}
+
+
+@media screen and (min-width: 1600px) {
+  .media__container {
+    padding: 1.5rem;
+    margin: 5%;
+  }
+
+  .block--media > h2 {
+    margin-bottom: 12rem;
+  }
+
+  .media--block .grid {
+    margin-bottom: 6rem;
+  }
 }
 
 /* Contact */
