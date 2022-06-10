@@ -56,7 +56,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
                 /></a>
               </header>
               <p className="card__description">
-                Located in Fresno, California. Pacifica Pizza, a pizzeria chain offering specialty pies plus familiar comfort food. 
+                Located in Fresno, California. Pacifica Pizza, a pizzeria chain offering specialty pies plus familiar comfort food. Made with React.js.
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
                 /></a>
               </header>
               <p className="card__description">
-                This single page React app is my solution to sites like Instagram only offering a spot for a single link. This find me page makes it easier for people to connect and network with me.
+                This single page React app is my solution to sites like Instagram only offering a spot for a single link. This site uses media queries to render backgrounds based on screen size.
               </p>
             </div>
           </div>
@@ -148,7 +148,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
         </div>
         <div className="project" data-aos="fade-up">
           <div className="card">
-            <a href="https://elegant-austin-e61aa0.netlify.app/" target="/">
+            <a href="https://stately-tarsier-fd5ad6.netlify.app/" target="/">
               <img
                 src={rpsls}
                 alt=""
@@ -158,8 +158,8 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
             </a>
             <div className="card__body">
               <header className="card__header">
-                <h3>Rock, Paper, Scissors, Lizard, Spock</h3>
-                <a className="github" href="https://github.com/JAPlaisted/RPSLP" target="/">
+                <h3>Mike Bourne Music</h3>
+                <a className="github" href="https://github.com/JAPlaisted/bourne-music" target="/">
                   <img
                     className='brightness'
                     src={github}
@@ -170,7 +170,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
                 </a>
               </header>
               <p className="card__description">
-                A twist to the classic game only Sheldon Cooper could invent.
+                Official Website for Arkansas rapper Mike Bourne. Made with React.js, React Router, Email.js, and custom CSS. 
               </p>
             </div>
           </div>
