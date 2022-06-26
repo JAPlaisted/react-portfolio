@@ -24,7 +24,7 @@ const Contact = () => {
                   <a href="mailto: jonathan.plaisted@outlook.com" className="btn btn--stretched" style={ sectionStyle }><div className='flip'>Contact</div></a>
               </div>
              </div>
-            <div className="icons" data-aos="fade-up">
+            <div className="icons container" data-aos="fade-up">
                 <span className="icon-container">
                     <a href="https://www.linkedin.com/in/jonathan-plaisted/">
                     <svg className='icon'>
