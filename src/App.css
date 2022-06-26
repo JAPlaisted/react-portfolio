@@ -624,6 +624,8 @@ a {
 
 .callout__content {
   text-align: right;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 @media screen and (min-width: 768px) {
