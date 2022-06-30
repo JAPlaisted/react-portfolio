@@ -665,3 +665,54 @@ a {
   font-size: 1rem;
   color : whitesmoke;
 }
+
+
+/* Bio */
+
+.wrapper {
+  margin-top: 2rem;
+  background: rgb(38,37,52);
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+
+}
+
+.portrait {
+  font-size: 20px;
+  line-height: 20px;
+  background: url('./assets/face.png') center no-repeat;
+  background-size: auto;
+  max-width: 80rem;
+  max-height: 25rem;
+  overflow: hidden;
+}
+
+/* This part is important for the feature itself */
+.portrait {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(92, 92, 95, 0);
+}
+
+.bio {
+  color: #fff;
+  max-width: 1050px;
+  line-height: 150%;
+  background-color: rgba(0, 0, 0, 0.492);
+  padding: 5rem;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.bio h3  {
+  text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 768px) {
+  .bio {
+    margin-top: 8rem;
+  }
+}
