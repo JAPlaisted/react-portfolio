@@ -25,28 +25,28 @@ const Contact = () => {
               </div>
              </div>
             <div className="icons container" data-aos="fade-up">
-                <span className="icon-container">
+                <span className="icon-container f">
                     <a href="https://www.linkedin.com/in/jonathan-plaisted/">
                     <svg className='icon'>
                     <use xlinkHref={`${Sprite}#linkedin`}/>
                   </svg>
                     </a>
                   </span>
-                  <span className="icon-container">
+                  <span className="icon-container f">
                   <a href="https://twitter.com/cssslinger">
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#twitter`}/>
                       </svg>
                   </a>
                   </span>
-                  <span className="icon-container">
+                  <span className="icon-container f">
                   <a href="https://codepen.io/japlaisted">
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#codepen`}/>
                       </svg>
                   </a>
                   </span>
-                  <span className="icon-container">
+                  <span className="icon-container f">
                   <a href="https://github.com/JAPlaisted">
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#github`}/>

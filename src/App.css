@@ -572,7 +572,24 @@ a {
   .icons {
     padding: 3rem 3rem;
   }
+
+  .f {
+    border: 2px solid var(--color-primary);
+    border-radius: 100%;
+    transition: .2s ease-in-out;
+  }
+  
+  .f:hover {
+    box-shadow: 0 0 15px var(--color-primary);
+  }
+
+  .f .icon {
+    position: relative;
+    top: 3px;
+  }
 }
+
+
 
 /* buttons */
 
