@@ -24,29 +24,29 @@ const Contact = () => {
                   <a href="mailto: jonathan.plaisted@outlook.com" className="btn btn--stretched" style={ sectionStyle }><div className='flip'>Contact</div></a>
               </div>
              </div>
-            <div className="icons container" data-aos="fade-up">
-                <span className="icon-container f">
+            <div className="icons container" >
+                <span className="icon-container f" data-aos="fade-up" data-aos-duration="500">
                     <a href="https://www.linkedin.com/in/jonathan-plaisted/">
                     <svg className='icon'>
                     <use xlinkHref={`${Sprite}#linkedin`}/>
                   </svg>
                     </a>
                   </span>
-                  <span className="icon-container f">
+                  <span className="icon-container f" data-aos="fade-up" data-aos-duration="750">
                   <a href="https://twitter.com/cssslinger">
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#twitter`}/>
                       </svg>
                   </a>
                   </span>
-                  <span className="icon-container f">
+                  <span className="icon-container f" data-aos="fade-up" data-aos-duration="1000">
                   <a href="https://codepen.io/japlaisted">
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#codepen`}/>
                       </svg>
                   </a>
                   </span>
-                  <span className="icon-container f">
+                  <span className="icon-container f" data-aos="fade-up" data-aos-duration="1250">
                   <a href="https://github.com/JAPlaisted">
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#github`}/>
