@@ -10,6 +10,7 @@ const Nav = () => {
       <ul className="list nav__list container">
         <li className="nav__item"><HashLink to="/#projects">PROJECTS</HashLink></li>
         <li className="nav__item"><HashLink to="#skills">SKILLS</HashLink></li>
+        <li className="nav__item"><HashLink to="#bio">BIO</HashLink></li>
         <li className="nav__item "><HashLink to="#contact">CONTACT</HashLink></li>
         <li className="nav__item "><a href={resume} target="_blank" rel="noreferrer">RESUME</a></li>
       </ul>
