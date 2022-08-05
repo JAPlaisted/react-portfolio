@@ -166,7 +166,6 @@ p {
     border-radius: var(--border-radius);
     padding: 5px;
     transition: 0.25s ease-in-out;
-    margin-inline: 0.5rem;
   }
 
 
