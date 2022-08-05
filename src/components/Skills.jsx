@@ -10,7 +10,7 @@ const Skills = () => {
           <h2 data-aos="zoom-in" className='centered'>Skills & Tools</h2>
           <div className="media--block">
               <div className="grid grid--1x3" >
-              <div className="media media__container" data-aos="flip-left" data-aos-duration="2000">
+              <div className="media media__container" data-aos="flip-left">
               <div className="media__image centered" >
                 <span className="icon-container">
                 <svg className='icon-skill '>
@@ -24,7 +24,7 @@ const Skills = () => {
                     </div>
               </div>
           
-              <div className="media media__container" data-aos="flip-left" data-aos-duration="2100">
+              <div className="media media__container" data-aos="flip-left">
               <div className="media__image centered">
                 <span className="icon-container">
                 <svg className='icon-skill'>
@@ -37,7 +37,7 @@ const Skills = () => {
                 <p>I think CSS is widely under appreciated, I use CSS to create beautiful and smooth animations and styling. </p>
                     </div>
               </div>
-              <div className="media media__container" data-aos="flip-left" data-aos-duration="2200">
+              <div className="media media__container" data-aos="flip-left">
               <div className="media__image centered">
                 <span className="icon-container">
                 <svg className='icon-skill'>
@@ -54,7 +54,7 @@ const Skills = () => {
             </div>
             <div className="media--block" >
             <div className="grid grid--1x3">
-              <div className="media media__container" data-aos="flip-left" data-aos-duration="2300">
+              <div className="media media__container" data-aos="flip-left">
                 <div className="media__image centered">
                   <span className="icon-container">
                     <svg className='icon-skill'>
@@ -67,7 +67,7 @@ const Skills = () => {
                 <p>My IDE of choice, combined with plugins that allow me to write clean, readable, shareable code. VS Code also alows me to effortlessly use the full power of React.</p>
                   </div>
              </div>
-             <div className="media media__container" data-aos="flip-left" data-aos-duration="2400">
+             <div className="media media__container" data-aos="flip-left" >
                 <div className="media__image centered">
                   <span className="icon-container">
                   <svg className='icon-skill'>
@@ -80,7 +80,7 @@ const Skills = () => {
                     <p>With this fleet of world-class software, I create mock-up site designs, multiple image sizes and files, professional video clips, and endlessly more.</p>
                   </div>
               </div>
-             <div className="media media__container" data-aos="flip-left" data-aos-duration="2500">
+             <div className="media media__container" data-aos="flip-left">
                 <div className="media__image centered">
                     <span className="icon-container">
                    <svg className='icon-skill'>
