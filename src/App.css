@@ -556,6 +556,78 @@ a {
   }
 }
 
+/* AI Art */
+
+.ai--art {
+  height: 88vh;
+}
+
+.ai--art > h2 {
+  color: #fff;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1600px) {
+  .ai--art {
+    height: 60vh;
+  }
+  
+}
+
+.art--wrapper {
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-top: 2%;
+  height: 555px;
+  max-width: 1140px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.art--image {
+  height: 25rem;
+  width: 25rem;
+  background-image: url(../src/assets/tennis.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-left: 7rem;
+  margin-top: 3rem;
+}
+
+
+
+
+@media screen and (min-width: 728px) {
+
+.art--wrapper {
+  flex-direction: row;
+}
+
+.art--image {
+  height: 50rem;
+  width: 50rem;
+  margin: 3rem;
+}
+
+
+.art--content {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin-inline: 14rem;
+  margin-top: 15rem;
+}
+
+
+.art--signature {
+  position: relative;
+  bottom: -175px;
+}
+
+}
+
 /* Contact */
 
 .icons {
