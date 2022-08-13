@@ -469,6 +469,9 @@ a {
   border-radius: 10%;
 }
   
+  .project-a:hover,
+  .project-b:hover,
+  .project-c:hover,
   .project-1:hover,
   .project-2:hover,
   .project-3:hover,
