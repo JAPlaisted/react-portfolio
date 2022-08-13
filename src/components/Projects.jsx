@@ -8,6 +8,88 @@ const Projects = () => {
     return ( 
     <section id="projects" className="block container block--light block-projects">
       <h2 data-aos="zoom-in">Projects</h2>
+
+      <div className="grid grid--1x3">
+        <div className="project" data-aos="fade-up">
+          <div className="card ">
+            <a href="https://incredible-cactus-081ef1.netlify.app/" target="/">
+              <div className="project-a">
+                
+              </div>
+            </a>
+            <div className="card__body">
+              <header className="card__header">
+                <h3>IAT</h3>
+                <a className="github" href="https://github.com/JAPlaisted/iat" target="/">
+                  <img 
+                    className='brightness'
+                    src={github}
+                    alt="GitHub logo"
+                    width="20px"
+                    height="20px"
+                /></a>
+              </header>
+              <p className="card__description">
+                Intelligent Automation Technologies is a software automation service that automates processes for businesses. This React site features reusable components, browser router, and custom CSS.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="project" data-aos="fade-up">
+          <div className="card">
+            <a href="https://calm-figolla-4ac6c5.netlify.app/" target="/">
+              <div className="project-b">
+                
+              </div>
+            </a>
+            <div className="card__body">
+              <header className="card__header">
+                <h3>Rainy Data</h3>
+                <a className="github" href="https://github.com/JAPlaisted/rainy-data" target="/">
+                  <img 
+                    className='brightness'
+                    src={github}
+                    alt="GitHub logo"
+                    width="20px"
+                    height="20px"
+                /></a>
+              </header>
+              <p className="card__description">
+              I created this site to hopefully help fellow developers save time in
+creating test databases to test their applications during development. Made with React.js, express.js, cors, axios, file-downloader. This is a full stack application.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="project" data-aos="fade-up">
+          <div className="card ">
+            <a href="/pyTracking" target="/">
+              <div className="project-c">
+                
+              </div>
+            </a>
+            <div className="card__body">
+              <header className="card__header">
+                <h3>Python Tracking</h3>
+                <a className="github" href="https://github.com/JAPlaisted/facial-recognition">
+                  <img 
+                    className='brightness'
+                    src={github}
+                    alt="GitHub logo"
+                    width="20px"
+                    height="20px"
+                /></a>
+              </header>
+              <p className="card__description">
+                Here is where I experiment with python object tracking scripts which will eventually be used to make the web more interactive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <div className="grid grid--1x3">
         <div className="project" data-aos="fade-up">
           <div className="card ">

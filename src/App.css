@@ -401,6 +401,9 @@ a {
 /* Projects */
 
 /* TODO: Restructure this project styling. */
+.project-a,
+.project-b,
+.project-c,
 .project-1,
 .project-2,
 .project-3,
@@ -415,6 +418,30 @@ a {
   background-color: white;
   height: 30rem;
   width: 30rem;
+}
+
+.project-a {
+  background-color:#4cabc4;
+}
+
+.project-a {
+  background-image: url("https://zengerfolkman.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-17-at-10.34.40-AM-e1623947909266-768x588.png");
+  background-position: center;
+  background-size: contain;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+}
+.project-b {
+  background-image: url("https://calm-figolla-4ac6c5.netlify.app/static/media/umbrellaMan.af50cd5a5ae3236e9e4e.png");
+  background-position: center;
+  background-size: contain;
+  border-radius: 10%;
+}
+.project-c {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg9dk0A1pfmH3mkNZzsb03gjFYnM4ljUcFsERNI7ibHXHFr0ObJwvGokqumxidvBMDM_Y&usqp=CAU");
+  background-position: center;
+  background-size: contain;
+  border-radius: 10%;
 }
 
 .project-1 {
