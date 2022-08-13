@@ -1,0 +1,23 @@
+.home--link {
+    padding: 1rem;
+    font-size: 3rem;
+    color: var(--color-headings);
+}
+
+.home--link:hover {
+    cursor: pointer;
+}
+
+video {
+    margin-bottom: 9rem;
+    border-radius: 15px;
+}
+
+.title, .p  {
+    color: white;
+    margin-top: 3rem;
+}
+
+.p {
+    line-height: 3rem;
+}
