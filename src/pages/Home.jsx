@@ -16,7 +16,7 @@ class Home extends Component {
                 <Header />
                 <Projects />
                 <Skills />
-                <AIArt />
+                {/*<AIArt />*/}
                 <Bio/>
                 <Contact />
                 <Footer />
