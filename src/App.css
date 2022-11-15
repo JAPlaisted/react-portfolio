@@ -659,6 +659,10 @@ a {
 
 /* Contact */
 
+.text {
+  margin-top: 3rem;
+}
+
 .icons {
   display: flex;
   flex-direction: row;
