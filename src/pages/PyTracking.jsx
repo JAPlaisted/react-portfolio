@@ -6,7 +6,7 @@ import github from "../assets/GitHub-Mark-32px.png"
 const PyTracking = () => {
     return ( 
         <div>
-            <a className='home--link' href="/">J</a>
+            <a id="top" className='home--link' href="/">J</a>
             <video className='centered' width="320" height="240" controls autoplay loop muted>
                 <source src={video}  type="video/mp4"></source>
             </video>
