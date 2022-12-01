@@ -17,7 +17,7 @@ const AdvantageRoute = () => {
               Advantage Route Systems provides route optimization services to a multitude of delivery companies. I was a front end developer on this project, working in Vue.js, Amazon Web Services, Knex.js, Quasar, and Swagger. 
               </p>
             {/* Begin Screen 1 */}
-            <div className="ars-media">
+            <div className="ars-media" data-aos="fade-up">
                 <img src={mapping} alt="geocoding screen"></img>
                 <div>
                     <h3>Mango Mapping</h3>
@@ -25,42 +25,42 @@ const AdvantageRoute = () => {
                 </div>
             </div>
             {/* End Screen 1 */}
-            <div className="ars-media">
+            <div className="ars-media" data-aos="fade-up">
                 <img src={geocode} alt="geocoding screen"></img>
                 <div>
                     <h3>Geocoding</h3>
                     <p style={{ maxWidth: '800px', padding: 20 }}>Mango Mapping – Geocoding allows users to view a route or routes and plot them on the map. </p>
                 </div>
             </div>
-            <div className="ars-media">
+            <div className="ars-media" data-aos="fade-up">
                 <img src={geocode2} alt="geocoding screen"></img>
                 <div>
                     <h3>Verify Address</h3>
                     <p style={{ maxWidth: '800px', padding: 20 }}>Mango Mapping – Verify Address detects invalid addresses and suggests possible correct addresses to choose from. </p>
                 </div>
             </div>
-            <div className="ars-media">
+            <div className="ars-media" data-aos="fade-up">
                 <img src={posting} alt="geocoding screen"></img>
                 <div>
                     <h3>Post Transactions</h3>
                     <p style={{ maxWidth: '800px', padding: 20 }}>The Post Transactions page allows users to post daily transactions to the database by either their invoice or by each route. </p>
                 </div>
             </div>
-            <div className="ars-media">
+            <div className="ars-media" data-aos="fade-up">
                 <img src={routeSummary} alt="geocoding screen"></img>
                 <div>
                     <h3>Route Summary</h3>
                     <p style={{ maxWidth: '800px', padding: 20 }}>The Route Summary page provides a summary report of all transactions based on filters selected by the user. </p>
                 </div>
             </div>
-            <div className="ars-media">
+            <div className="ars-media" data-aos="fade-up">
                 <img src={hhClass} alt="geocoding screen"></img>
                 <div>
                     <h3>Hand-Held Class</h3>
                     <p style={{ maxWidth: '800px', padding: 20 }}>The Hand-Held Class screen allows delivery drivers to update their own profile settings on their own device. </p>
                 </div>
             </div>
-            <div className="ars-media">
+            <div className="ars-media" data-aos="fade-up">
                 <img src={arsLogin} alt="geocoding screen"></img>
                 <div>
                     <h3>Login</h3>
