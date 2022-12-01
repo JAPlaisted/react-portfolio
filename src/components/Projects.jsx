@@ -9,11 +9,55 @@ const Projects = () => {
     <section id="projects" className="block container block--light block-projects">
       <h2 data-aos="zoom-in">Projects</h2>
 
+      {/* Start First Row */}
       <div className="grid grid--1x3">
         <div className="project" data-aos="fade-up">
           <div className="card ">
+            <a href="https://superchat-7b816.web.app/" target="/">
+              <div className="project-1a">
+                
+              </div>
+            </a>
+            <div className="card__body">
+              <header className="card__header">
+                <h3>InitChat</h3>
+                <a className="github" href="https://github.com/JAPlaisted/init-chat" target="/">
+                  <img 
+                    className='brightness'
+                    src={github}
+                    alt="GitHub logo"
+                    width="20px"
+                    height="20px"
+                /></a>
+              </header>
+              <p className="card__description">
+                InitChat is a fullstack chat app utilizing React.js on the front-end and Firebase on the back end. This app features google authentication on the backend as well as a banned users list. Images available in the github repo or feel free to leave a comment on the live site!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="project" data-aos="fade-up">
+          <div className="card">
+            <a href="/advantageRoute" target="/">
+              <div className="project-2a">
+                
+              </div>
+            </a>
+            <div className="card__body">
+              <header className="card__header">
+                <h3>Advantage Route Systems</h3>
+              </header>
+              <p className="card__description">
+              Advantage Route Systems provides route optimization services to a multitude of delivery companies. I was a front end developer on this project, working in Vue.js, Amazon Web Services, Knex.js, Quasar, and Swagger. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="project" data-aos="fade-up">
+          <div className="card ">
             <a href="https://incredible-cactus-081ef1.netlify.app/" target="/">
-              <div className="project-a">
+              <div className="project-3a">
                 
               </div>
             </a>
@@ -35,8 +79,11 @@ const Projects = () => {
             </div>
           </div>
         </div>
+      </div>
+      {/* Start First Row */}
 
-        <div className="project" data-aos="fade-up">
+      <div className="grid grid--1x3">
+      <div className="project" data-aos="fade-up">
           <div className="card">
             <a href="https://calm-figolla-4ac6c5.netlify.app/" target="/">
               <div className="project-b">
@@ -58,6 +105,32 @@ const Projects = () => {
               <p className="card__description">
               I created this site to hopefully help fellow developers save time in
 creating test databases to test their applications during development. Made with React.js, express.js, cors, axios, file-downloader. This is a full stack application.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="project" data-aos="fade-up">
+          <div className="card ">
+            <a href="https://cosmic-sunburst-b998ed.netlify.app/" target="/">
+              <div className="project-6">
+                
+              </div>
+            </a>
+            <div className="card__body">
+              <header className="card__header">
+                <h3>Find Jon</h3>
+                <a className="github" href="https://github.com/JAPlaisted/find-jon" target="/">
+                  <img 
+                    className='brightness'
+                    src={github}
+                    alt="GitHub logo"
+                    width="20px"
+                    height="20px"
+                /></a>
+              </header>
+              <p className="card__description">
+                This single page React app is my solution to sites like Instagram only offering a spot for a single link. This site uses media queries to render backgrounds based on screen size.
               </p>
             </div>
           </div>
@@ -89,36 +162,8 @@ creating test databases to test their applications during development. Made with
         </div>
       </div>
 
-
       <div className="grid grid--1x3">
-        <div className="project" data-aos="fade-up">
-          <div className="card ">
-            <a href="https://admirable-lebkuchen-db46f7.netlify.app/" target="/">
-              <div className="project-1">
-                
-              </div>
-            </a>
-            <div className="card__body">
-              <header className="card__header">
-                <h3>Zoa Energy</h3>
-                <a className="github" href="https://github.com/JAPlaisted/ZoaEnergyLandingPage" target="/">
-                  <img 
-                    className='brightness'
-                    src={github}
-                    alt="GitHub logo"
-                    width="20px"
-                    height="20px"
-                /></a>
-              </header>
-              <p className="card__description">
-                ZOA is about healthy, positive energy that helps us
-all focus, be productive, and get stronger together. This Zoa landing page is made with react and can be used to learn about and purchase some Zoa Energy!
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="project" data-aos="fade-up">
+      <div className="project" data-aos="fade-up">
           <div className="card">
             <a href="https://magnificent-torte-aec714.netlify.app/" target="/">
               <div className="project-2">
@@ -143,17 +188,47 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
             </div>
           </div>
         </div>
+
+        <div className="project" data-aos="fade-up">
+          <div className="card">
+            <a href="https://stately-tarsier-fd5ad6.netlify.app/" target="/">
+              <img
+                src={rpsls}
+                alt=""
+                width="300px"
+                height="200px"
+              />
+            </a>
+            <div className="card__body">
+              <header className="card__header">
+                <h3>Mike Bourne Music</h3>
+                <a className="github" href="https://github.com/JAPlaisted/bourne-music" target="/">
+                  <img
+                    className='brightness'
+                    src={github}
+                    alt="GitHub logo"
+                    width="20px"
+                    height="20px"
+                  />
+                </a>
+              </header>
+              <p className="card__description">
+                Official Website for Arkansas rapper Mike Bourne. Made with React.js, React Router, Email.js, and custom CSS. 
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="project" data-aos="fade-up">
           <div className="card ">
-            <a href="https://cosmic-sunburst-b998ed.netlify.app/" target="/">
-              <div className="project-6">
+            <a href="https://admirable-lebkuchen-db46f7.netlify.app/" target="/">
+              <div className="project-1">
                 
               </div>
             </a>
             <div className="card__body">
               <header className="card__header">
-                <h3>Find Jon</h3>
-                <a className="github" href="https://github.com/JAPlaisted/find-jon" target="/">
+                <h3>Zoa Energy</h3>
+                <a className="github" href="https://github.com/JAPlaisted/ZoaEnergyLandingPage" target="/">
                   <img 
                     className='brightness'
                     src={github}
@@ -163,7 +238,8 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
                 /></a>
               </header>
               <p className="card__description">
-                This single page React app is my solution to sites like Instagram only offering a spot for a single link. This site uses media queries to render backgrounds based on screen size.
+                ZOA is about healthy, positive energy that helps us
+all focus, be productive, and get stronger together. This Zoa landing page is made with react and can be used to learn about and purchase some Zoa Energy!
               </p>
             </div>
           </div>
@@ -230,18 +306,15 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
         </div>
         <div className="project" data-aos="fade-up">
           <div className="card">
-            <a href="https://stately-tarsier-fd5ad6.netlify.app/" target="/">
-              <img
-                src={rpsls}
-                alt=""
-                width="300px"
-                height="200px"
-              />
+            <a href="https://elegant-austin-e61aa0.netlify.app/" target="/">
+            <div className="project-5">
+                
+                </div>
             </a>
             <div className="card__body">
               <header className="card__header">
-                <h3>Mike Bourne Music</h3>
-                <a className="github" href="https://github.com/JAPlaisted/bourne-music" target="/">
+                <h3>Rock, Paper, Scissors, Lizard, Spock.</h3>
+                <a className="github" href="https://github.com/JAPlaisted/RPSLP" target="/">
                   <img
                     className='brightness'
                     src={github}
@@ -252,7 +325,7 @@ all focus, be productive, and get stronger together. This Zoa landing page is ma
                 </a>
               </header>
               <p className="card__description">
-                Official Website for Arkansas rapper Mike Bourne. Made with React.js, React Router, Email.js, and custom CSS. 
+              Rock, Paper, Scissors, Lizard, Spock is a fun extension to the classic game. This game was built with javascript.
               </p>
             </div>
           </div>

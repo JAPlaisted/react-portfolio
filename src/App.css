@@ -401,6 +401,9 @@ a {
 /* Projects */
 
 /* TODO: Restructure this project styling. */
+.project-1a,
+.project-2a,
+.project-3a,
 .project-a,
 .project-b,
 .project-c,
@@ -418,13 +421,26 @@ a {
   background-color: white;
   height: 30rem;
   width: 30rem;
+  border-radius: 10%;
 }
 
-.project-a {
+.project-1a{
+  background-color:#040507;
+  background-image: url("https://i.pinimg.com/564x/9a/d3/3d/9ad33dec96af6ff573421809839e82e0.jpg");
+  background-position: center;
+  background-size: contain;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+}
+
+.project-2a { 
+ background-image: url("https://advantageroute.com/wp-content/uploads/2020/10/ars-logo-gray-orange.png");
+ background-size: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.project-3a {
   background-color:#4cabc4;
-}
-
-.project-a {
   background-image: url("https://zengerfolkman.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-17-at-10.34.40-AM-e1623947909266-768x588.png");
   background-position: center;
   background-size: contain;
@@ -459,7 +475,13 @@ a {
   background-color: white;
   border-radius: 10%;
 }
-
+.project-5{
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/153514738432196028/BE5105A287D535174D3CB84BE7CFCBD6A99961AE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: #1e6eb0;
+}
 .project-6 {
   background-image: url("https://images.assetsdelivery.com/compings_v2/mmfcreative/mmfcreative2105/mmfcreative210500614.jpg");
   background-position: center;
@@ -468,7 +490,9 @@ a {
   background-color: white;
   border-radius: 10%;
 }
-  
+  .project-1a:hover,
+  .project-2a:hover,
+  .project-3a:hover,
   .project-a:hover,
   .project-b:hover,
   .project-c:hover,
@@ -477,7 +501,8 @@ a {
   .project-3:hover,
   .project-4:hover,
   .project-5:hover,
-  .project-6:hover  {
+  .project-6:hover
+    {
     box-shadow: 0 0 0 0.5rem var(--color-primary);
     cursor: pointer;
   }
@@ -833,4 +858,19 @@ a {
   .bio {
     margin-top: 1rem;
   }
+}
+
+.top--link {
+  position: relative;
+  margin: 50%;
+  font-size: 9rem;
+  scroll-behavior: smooth;
+  opacity: 80%;
+  transition: 0.3s;
+  bottom: 0;
+}
+.top--link:hover {
+  opacity: 100%;
+  filter: brightness(150%);
+  bottom: 10px;
 }

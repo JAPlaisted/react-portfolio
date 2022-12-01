@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import PyTracking from "./pages/PyTracking";
 import "aos/dist/aos.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AdvantageRoute from "./pages/advantageRoute";
 
 function App() {
   useEffect(() => {
@@ -12,13 +13,17 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <div className="App">
+    <div className="App" id="top">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/pyTracking" element={<PyTracking />} />
+          <Route path="/advantageRoute" element={<AdvantageRoute />} />
         </Routes>
       </BrowserRouter>
+      <a className="top--link" href="#top">
+        ˆ
+      </a>
     </div>
   );
 }
