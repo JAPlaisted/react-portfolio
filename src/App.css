@@ -400,7 +400,7 @@ a {
 
 /* Projects */
 
-/* TODO: Restructure this project styling. */
+/* TODO: Refactor projects. */
 .project-1a,
 .project-2a,
 .project-3a,
@@ -476,11 +476,11 @@ a {
   border-radius: 10%;
 }
 .project-5{
-  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/153514738432196028/BE5105A287D535174D3CB84BE7CFCBD6A99961AE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-image: url("https://static.wixstatic.com/media/903056_39aa9523c70a428684be9744580b0b1b~mv2.png/v1/fill/w_925,h_925,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/903056_39aa9523c70a428684be9744580b0b1b~mv2.png");
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
-  background-color: #1e6eb0;
+  background-color:#15133c;
 }
 .project-6 {
   background-image: url("https://images.assetsdelivery.com/compings_v2/mmfcreative/mmfcreative2105/mmfcreative210500614.jpg");
